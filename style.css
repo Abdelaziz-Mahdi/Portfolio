@@ -1,3 +1,50 @@
-.header {
-  color: olive;
+/* CSS basic Setup */
+html {
+  box-sizing: border-box;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* Color palette */
+
+.Neutrals {
+  color: #172b4d;
+}
+
+.green {
+  color: #36b37e;
+}
+
+.green-light {
+  color: #c5e9da;
+}
+
+.gray {
+  color: #ebf0ee;
+}
+
+.gray-text {
+  color: #6B778C;
+}
+
+.white {
+  color: #ffffff;
+}
+
+/* Genral Classes */
+
+.border {
+  border: 1px solid #d0d9d4;
+  border-radius: 4px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Home Page */

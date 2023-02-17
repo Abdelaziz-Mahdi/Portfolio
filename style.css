@@ -103,6 +103,12 @@ h1 {
   line-height: 52px;
 }
 
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
 #main-header {
   display: flex;
   flex-wrap: wrap;

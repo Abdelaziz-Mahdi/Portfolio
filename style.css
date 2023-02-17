@@ -7,6 +7,9 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Color palette */
@@ -28,7 +31,7 @@ html {
 }
 
 .gray-text {
-  color: #6B778C;
+  color: #6b778c;
 }
 
 .white {
@@ -44,7 +47,76 @@ html {
 
 body {
   font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+.poppins {
   font-family: "Poppins", sans-serif;
 }
 
 /* Home Page */
+
+#main-section {
+  background-image: url(./img/header-illsutration-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-top: 17%;
+}
+
+#main-section p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+#main-section ul {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 45%;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+#main-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#logo {
+  margin-top: 24px;
+  margin-left: 24px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+#menu {
+  margin-top: 24px;
+  margin-right: 32px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.strip {
+  width: 20px;
+  border-radius: 2px;
+  border: 1.5px solid;
+  margin: 5px;
+}
+
+#scroll-btn {
+  background-color: transparent;
+  border: none;
+}

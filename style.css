@@ -23,8 +23,16 @@ html {
   color: #36b37e;
 }
 
+.greenBG {
+  background-color: #36b37e;
+}
+
 .dgreen {
   color: #28352f;
+}
+
+.dgreenB {
+  color: #3a4a42;
 }
 
 .green-light {
@@ -33,6 +41,10 @@ html {
 
 .gray {
   color: #ebf0ee;
+}
+
+.grayBG {
+  background-color: #ebf0ee;
 }
 
 .gray-text {
@@ -181,19 +193,59 @@ h4 {
 }
 
 .card-con {
+  margin: 20px 0 20px 0;
+}
+
+.card-con {
   position: relative;
 }
 
 .card-data {
-  height: 200px;
   background-color: #fff;
   border-radius: 5%;
   width: 100%;
+  height: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .place-over {
   position: absolute;
   bottom: 0.1%;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 6% 3%;
+}
+
+.language-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.language {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  border-radius: 8%;
+  padding: 2% 3%;
+}
+
+.card-action {
+  align-self: center;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.see-project {
+  padding: 7% 5%;
+  border-radius: 4px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
 }

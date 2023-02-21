@@ -814,5 +814,63 @@
         </li>
       </ul>
     </section>
+    <section id="form-Section">
+      <p id="form-text" class="Neutrals">
+        I'm always <br> interested in<br> hearing about<br> new projects, so<br> if you'd like to<br>
+        chat please get<br> in touch.
+      </p>
+      <form id="form" action="https://formspree.io/f/xbjbqokr" method="POST">
+        <ul>
+          <li>
+            <ul id="contactInGrid">
+              <li>
+                <div class="inputDiv">
+                  <label for="name"></label>
+                  <input
+                    type="text"
+                    name="name"
+                    maxlength="30"
+                    required="true"
+                    placeholder="Full name"
+                  />
+                </div>
+              </li>
+              <li>
+                <div class="inputDiv">
+                  <label for="email"></label>
+                  <input
+                    id="mail"
+                    type="email"
+                    name="email"
+                    required="true"
+                    placeholder="Email address"
+                  />
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div id="hideBorder" class="inputDiv">
+              <label id="hide" for="Message"></label>
+              <textarea
+                name="message"
+                required="true"
+                id="message"
+                maxlength="500"
+                placeholder="Enter text here"
+                rows="5"
+              ></textarea>
+            </div>
+          </li>
+          <li><p id="showMessage"></p></li>
+          <li>
+            <button type="submit" class="btn startCoText">
+              Get in touch
+            </button>
+          </li>
+        </ul>
+      </form>
+      <div id="form-bimg"></div>
+    </section>
   </body>
 </html>

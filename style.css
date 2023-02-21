@@ -374,6 +374,9 @@ textarea {
   font-size: 15px;
   line-height: 24px;
   color: #091e42;
+  padding: 12px;
+  border: 1px solid #60c095;
+  border-radius: 4px;
 }
 
 #form-bimg {
@@ -416,13 +419,6 @@ textarea {
   line-height: 24px;
   border-radius: 4px;
   border: 1px solid #d0d9d4;
-}
-
-textarea {
-  padding: 12px;
-  color: #091e42;
-  border: 1px solid #60c095;
-  border-radius: 4px;
 }
 
 #btn-container {

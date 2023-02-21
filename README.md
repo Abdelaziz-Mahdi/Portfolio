@@ -45,6 +45,8 @@ Major languages -HTML (semantic) -CSS (flexbox)
 ### Key Features <a name="key-features"></a>
 
 - **[Responsive Design]**
+- **[Contact Form]**
+- **[Add validation for the form]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,7 +84,6 @@ This is an activity called Set up a 'portfolio-website' project to test the foll
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Contact me Section]**
 - [ ] **[Desktop Version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

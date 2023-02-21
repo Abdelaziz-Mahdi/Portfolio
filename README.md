@@ -76,6 +76,12 @@ This is an activity called Set up a 'portfolio-website' project to test the foll
 - Twitter: [@AbdelazizDV](https://twitter.com/AbdelazizDV)
 - LinkedIn: [in/abdelaziz-ali-dev](https://www.linkedin.com/in/abdelaziz-ali-dev)
 
+👤 **Agyare Kissi Kenneth**
+
+- GitHub: https://github.com/over-geek
+- Twitter: https://twitter.com/KissiKenneth
+- LinkedIn: https://www.linkedin.com/in/kenneth-agyare-kissi-673a01186/
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->

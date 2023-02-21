@@ -350,3 +350,34 @@ h4 {
   justify-content: center;
   gap: 5%;
 }
+
+/* Form */
+
+#aform-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
+textarea {
+  font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+color: #091E42;
+}
+
+#form-bimg {
+  background-image: url(./img/form-frame.svg);
+  background-repeat: no-repeat;
+  background-position: center right;
+  height: 131px;
+}

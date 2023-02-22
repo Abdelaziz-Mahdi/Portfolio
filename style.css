@@ -207,6 +207,9 @@ h4 {
 }
 
 #cards {
+  display: grid;
+  grid-column: auto;
+  justify-content: center;
   margin: 50px 0 0 0;
 }
 
@@ -530,5 +533,13 @@ textarea {
 
   .title {
     width: 100%;
+  }
+
+  #cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2%;
+    justify-content: center;
+    margin: 50px 0 0 0;
   }
 }

@@ -102,13 +102,18 @@ a:visited {
   padding-top: 17%;
 }
 
+#main-section header {
+  display: none;
+}
+
 #main-section p {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
+  width: 87%;
 }
 
-#main-section ul {
+.inline-flex {
   display: inline-flex;
   justify-content: space-around;
   width: 45%;
@@ -162,6 +167,10 @@ h4 {
   cursor: pointer;
 }
 
+.dis-dsk {
+  display: none;
+}
+
 .strip {
   width: 20px;
   border-radius: 2px;
@@ -172,6 +181,11 @@ h4 {
 #scroll-btn {
   background-color: transparent;
   border: none;
+}
+
+.title {
+  width: 80%;
+  justify-self: center;
 }
 
 .title::after {
@@ -213,6 +227,7 @@ h4 {
 
 .place-over {
   position: absolute;
+  width: 100%;
   bottom: 0.1%;
   padding: 6% 3%;
 }
@@ -244,7 +259,6 @@ h4 {
   border-radius: 4px;
   border: none;
   font-family: "Inter", sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -331,7 +345,6 @@ h4 {
 }
 
 .cat-item {
-  font-style: normal;
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
@@ -357,7 +370,6 @@ h4 {
 }
 
 #form-text {
-  font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -365,7 +377,6 @@ h4 {
 }
 
 textarea {
-  font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
@@ -456,4 +467,68 @@ textarea {
   text-align: center;
   color: #42526e;
   margin-bottom: 300px;
+}
+
+/* Desktop Version */
+@media screen and (min-width: 768px) {
+  #main-header {
+    display: none;
+  }
+
+  #main-section {
+    min-height: 120vh;
+    background-image: url(./img/Header-llustration-desktop.svg);
+    padding-top: 2%;
+    justify-content: start;
+    gap: 3%;
+  }
+
+  #main-section header {
+    display: block;
+    width: 100%;
+    margin-bottom: 12%;
+  }
+
+  .dis-dsk {
+    display: inline;
+  }
+
+  #main-section p {
+    width: 56.5%;
+  }
+
+  .f-nav {
+    font-weight: 550;
+    font-size: 15px;
+    line-height: 110%;
+    text-align: center;
+    color: #344563;
+  }
+
+  .inline-flex {
+    justify-content: space-between;
+    width: 18%;
+  }
+
+  .srlbtn {
+    margin-top: 4%;
+  }
+
+  /* Works Section */
+
+  #works-section {
+    margin-top: 8%;
+  }
+
+  .title::after {
+    width: 0;
+    height: 0;
+    background-color: none;
+    border-radius: none;
+    position: relative;
+  }
+
+  .title {
+    width: 100%;
+  }
 }

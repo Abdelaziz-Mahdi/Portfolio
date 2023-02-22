@@ -266,9 +266,6 @@ h4 {
 /* about myself */
 
 #about-myself {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background-image: url(./img/illust-aboutMeTop.svg);
   background-repeat: no-repeat;
   background-position: right top;
@@ -349,4 +346,114 @@ h4 {
   display: flex;
   justify-content: center;
   gap: 5%;
+}
+
+/* Form */
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
+textarea {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #091e42;
+  padding: 12px;
+  border: 1px solid #60c095;
+  border-radius: 4px;
+}
+
+#form-bimg {
+  position: absolute;
+  background-image: url(./img/form-frame.svg);
+  background-repeat: no-repeat;
+  background-position: right top 720px;
+  width: 100%;
+  height: 100%;
+}
+
+#form,
+#form-text {
+  margin-top: 10%;
+}
+
+#form {
+  width: 90%;
+}
+
+#form > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+#form > ul li,
+textarea {
+  width: 100%;
+}
+
+#form input {
+  width: 100%;
+  height: 48px;
+  padding: 16px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  border-radius: 4px;
+  border: 1px solid #d0d9d4;
+}
+
+#btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#btn-container .see-project {
+  color: #fff;
+  background-color: #36b37f;
+  cursor: pointer;
+  padding: 3% 2%;
+}
+
+#btn-container .see-project:hover {
+  background: #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  border-radius: 4px;
+}
+
+#btn-container .see-project:active {
+  background: #008552;
+  border-radius: 4px;
+}
+
+#contact-social {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-between;
+  margin-top: 48px;
+  margin-bottom: 17px;
+}
+
+#form-section h4 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
+  margin-bottom: 300px;
 }

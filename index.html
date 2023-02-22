@@ -432,7 +432,7 @@
         </li>
       </ul>
     </section>
-    <section id="about-myself">
+    <section id="about-myself" class="flex">
       <div class="bg-about">
         <header class="rel">
           <div id="vo"></div>
@@ -814,7 +814,7 @@
         </li>
       </ul>
     </section>
-    <section id="form-Section">
+    <section id="form-section" class="rel flex">
       <div id="form-bimg"></div>
       <p id="form-text" class="Neutrals">
         I'm always <br />
@@ -828,32 +828,28 @@
       <form id="form" action="https://formspree.io/f/xbjbqokr" method="POST">
         <ul>
           <li>
-            <ul id="contactInGrid">
-              <li>
-                <div class="inputDiv">
-                  <label for="name"></label>
-                  <input
-                    type="text"
-                    name="name"
-                    maxlength="30"
-                    required="true"
-                    placeholder="Full name"
-                  />
-                </div>
-              </li>
-              <li>
-                <div class="inputDiv">
-                  <label for="email"></label>
-                  <input
-                    id="mail"
-                    type="email"
-                    name="email"
-                    required="true"
-                    placeholder="Email address"
-                  />
-                </div>
-              </li>
-            </ul>
+            <div class="inputDiv">
+              <label for="name"></label>
+              <input
+                type="text"
+                name="name"
+                maxlength="30"
+                required="true"
+                placeholder="Full name"
+              />
+            </div>
+          </li>
+          <li>
+            <div class="inputDiv">
+              <label for="email"></label>
+              <input
+                id="mail"
+                type="email"
+                name="email"
+                required="true"
+                placeholder="Email address"
+              />
+            </div>
           </li>
           <li>
             <div id="hideBorder" class="inputDiv">

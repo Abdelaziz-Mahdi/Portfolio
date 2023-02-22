@@ -266,9 +266,6 @@ h4 {
 /* about myself */
 
 #about-myself {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background-image: url(./img/illust-aboutMeTop.svg);
   background-repeat: no-repeat;
   background-position: right top;
@@ -353,8 +350,7 @@ h4 {
 
 /* Form */
 
-#form-Section {
-  position: relative;
+.flex {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -397,8 +393,7 @@ textarea {
   width: 90%;
 }
 
-#form > ul,
-#contactInGrid {
+#form > ul {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -454,7 +449,7 @@ textarea {
   margin-bottom: 17px;
 }
 
-#form-Section h4 {
+#form-section h4 {
   font-weight: 400;
   font-size: 20px;
   line-height: 32px;

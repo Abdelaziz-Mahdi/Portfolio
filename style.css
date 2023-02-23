@@ -472,7 +472,12 @@ textarea {
   margin-bottom: 300px;
 }
 
+.d-desk {
+  display: none;
+}
+
 /* Desktop Version */
+
 @media screen and (min-width: 768px) {
   #main-header {
     display: none;
@@ -541,5 +546,47 @@ textarea {
     gap: 2%;
     justify-content: center;
     margin: 50px 0 0 0;
+  }
+
+  /* about myself */
+
+  #about-myself {
+    background-image: url(./img/frame-des.svg);
+    margin-top: 5%;
+  }
+
+  .pAbout {
+    align-self: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 56.5%;
+  }
+
+  .bg-about {
+    background-image: url(./img/illust-about-desk.svg);
+    background-repeat: no-repeat;
+    background-size: unset;
+    background-position: left bottom 70px;
+    width: 100%;
+  }
+
+  #about-cards-con {
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    width: 80%;
+  }
+
+  .abs {
+    left: 6%;
+  }
+
+  .d-desk {
+    display: block;
+  }
+
+  .d-mob {
+    display: none;
   }
 }

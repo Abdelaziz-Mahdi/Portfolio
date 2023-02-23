@@ -364,9 +364,15 @@ h4 {
   gap: 5%;
 }
 
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* Form */
 
-.flex {
+.flex-drow {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -377,6 +383,7 @@ h4 {
   font-size: 40px;
   line-height: 52px;
   text-align: center;
+  width: 90%;
 }
 
 textarea {
@@ -562,6 +569,10 @@ textarea {
     width: 56.5%;
   }
 
+  #about-myself .card-action {
+    width: 12%;
+  }
+
   .bg-about {
     background-image: url(./img/illust-about-desk.svg);
     background-repeat: no-repeat;
@@ -588,5 +599,81 @@ textarea {
 
   .d-mob {
     display: none;
+  }
+
+  /* Contact me section */
+
+  #form-section {
+    height: 78vh;
+  }
+
+  #form-text {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 52px;
+    line-height: 143%;
+    text-align: left;
+    width: 40%;
+  }
+
+  .flex-drow {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1%;
+  }
+
+  #contact-social {
+    display: none;
+  }
+
+  #form-text {
+    width: 33%;
+    margin-top: 14%;
+  }
+
+  #form {
+    width: 47%;
+  }
+
+  #btn-container {
+    justify-content: flex-start;
+  }
+
+  #form-l-bg {
+    position: absolute;
+    background-image: url(./img/form-l-frame.svg);
+    background-repeat: no-repeat;
+    background-position: left top 370px;
+    width: 100%;
+    height: 100%;
+  }
+
+  #form-m-bg {
+    position: absolute;
+    background-image: url(./img/form-m-frame.svg);
+    background-repeat: no-repeat;
+    background-position: left 270px top 530px;
+    width: 100%;
+    height: 100%;
+  }
+
+  #form-bimg {
+    position: absolute;
+    background-image: url(./img/form-r-frame.svg);
+    background-repeat: no-repeat;
+    background-position: right top 220px;
+    width: 100%;
+    height: 100%;
+  }
+
+  footer #contact-social {
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+    width: 100%;
+    padding: 1.5%;
+    border-top: 1px solid #d0d9d4;
+    margin: 0;
   }
 }

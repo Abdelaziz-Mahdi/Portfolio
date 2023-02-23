@@ -32,7 +32,7 @@
 # 📖 [Personal-Portfolio-T3] <a name="about-project"></a>
 
 
-**[Personal-Portfolio-T3]** A portfolio website that runs smoothly on different devices and screen sizes (Current design is for mobile only).
+**[Personal-Portfolio-T3]** A portfolio website that runs smoothly on different devices and screen sizes.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -90,7 +90,8 @@ This is an activity called Set up a 'portfolio-website' project to test the foll
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Desktop Version]**
+- [ ] **[Application deploy]**
+- [ ] **[Accessibility]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

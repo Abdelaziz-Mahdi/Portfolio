@@ -613,7 +613,8 @@ textarea {
     line-height: 52px;
     line-height: 143%;
     text-align: left;
-    width: 40%;
+    width: 33%;
+    margin-top: 14%;
   }
 
   .flex-drow {
@@ -625,11 +626,6 @@ textarea {
 
   #contact-social {
     display: none;
-  }
-
-  #form-text {
-    width: 33%;
-    margin-top: 14%;
   }
 
   #form {

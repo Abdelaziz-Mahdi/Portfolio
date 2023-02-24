@@ -212,6 +212,11 @@ h4 {
   margin: 5px;
 }
 
+.social:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+
 #scroll-btn {
   background-color: transparent;
   border: none;

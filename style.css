@@ -87,6 +87,49 @@ a:visited {
   cursor: pointer;
 }
 
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+h1  {
+  animation-duration: 3s;
+  animation-name: slidesin;
+}
+
+@keyframes slidesin {
+  from {
+    margin-right: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+}
+
 /* Home Page */
 
 #main-section {
@@ -119,32 +162,6 @@ a:visited {
   width: 45%;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-}
-
-h2 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  text-align: center;
-}
-
-h3 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-}
-
-h4 {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  text-align: center;
-}
-
 #main-header {
   display: flex;
   flex-wrap: wrap;
@@ -157,6 +174,23 @@ h4 {
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
+}
+
+#main-section p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 87%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 87%;
+  }
 }
 
 #menu {
@@ -181,6 +215,11 @@ h4 {
 #scroll-btn {
   background-color: transparent;
   border: none;
+}
+
+.srlbtn:hover {
+  transform: scale(1.5);
+  transition: 1s;
 }
 
 .title {
@@ -228,6 +267,11 @@ h4 {
   justify-content: space-around;
 }
 
+.card-con:hover {
+  transform: scale(1.1);
+  transition: 1s ;
+}
+
 .place-over {
   position: absolute;
   width: 100%;
@@ -273,6 +317,8 @@ h4 {
   background: #36b37f;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
+  transform: scale(1.1);
+  transition: 0.5s ;
 }
 
 .see-project:active {
@@ -491,8 +537,9 @@ textarea {
   }
 
   #main-section {
-    min-height: 120vh;
+    max-height: 120vh;
     background-image: url(./img/Header-llustration-desktop.svg);
+    background-position: top;
     padding-top: 2%;
     justify-content: start;
     gap: 3%;
@@ -585,6 +632,7 @@ textarea {
     padding-top: 2%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 2%;
     width: 80%;
   }

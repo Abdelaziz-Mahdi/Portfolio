@@ -91,9 +91,6 @@ h1 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-}
-
-h1 {
   animation-duration: 3s;
   animation-name: slidesin;
 }
@@ -154,6 +151,8 @@ h4 {
   font-size: 20px;
   line-height: 28px;
   width: 87%;
+  animation-duration: 3s;
+  animation-name: slidein;
 }
 
 .inline-flex {
@@ -174,11 +173,6 @@ h4 {
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
-}
-
-#main-section p {
-  animation-duration: 3s;
-  animation-name: slidein;
 }
 
 @keyframes slidein {

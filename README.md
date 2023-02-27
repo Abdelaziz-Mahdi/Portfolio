@@ -2,11 +2,13 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src=".\img\sc-iPSE.png" alt="mobile-screenshot" width="370"  height="auto" />
+  <h1><b>Personal-Portfolio</b></h1><div align="left">
+   <br/>
+   <br/>
+  <img src=".\img\sc-iPSE.png" alt="mobile-screenshot" width="240"  height="auto" />
+  <img src=".\img\t3-Portfolio.jpg" alt="mobile-screenshot" width="760"  height="auto" />
   <br/>
-
-  <h3><b>Personal-Portfolio</b></h3>
-
+</div>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -17,6 +19,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
 - [👥 Authors](#authors)
@@ -47,6 +50,14 @@ Major languages -HTML (semantic) -CSS (flexbox)
 - **[Responsive Design]**
 - **[Contact Form]**
 - **[Add validation for the form]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link] [abdelaziz-ali.github.io/Personal-Portfolio-T3](https://abdelaziz-ali.github.io/Personal-Portfolio-T3/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -90,8 +101,8 @@ This is an activity called Set up a 'portfolio-website' project to test the foll
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Application deploy]**
 - [ ] **[Accessibility]**
+- [ ] **[Mobile Menu]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

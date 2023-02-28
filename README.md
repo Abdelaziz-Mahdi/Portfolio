@@ -5,8 +5,8 @@
   <h1><b>Personal-Portfolio</b></h1><div align="left">
    <br/>
    <br/>
-  <img src=".\img\sc-iPSE.png" alt="mobile-screenshot" width="240"  height="auto" />
-  <img src=".\img\t3-Portfolio.jpg" alt="mobile-screenshot" width="760"  height="auto" />
+  <img src=".\img\sc-iPSE.png" alt="mobile-screenshot" width="200"  height="auto" />
+  <img src=".\img\t3-Portfolio.jpg" alt="mobile-screenshot" width="560"  height="auto" />
   <br/>
 </div>
 </div>
@@ -101,8 +101,8 @@ This is an activity called Set up a 'portfolio-website' project to test the foll
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Accessibility]**
 - [ ] **[Mobile Menu]**
+- [ ] **[details popup window]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

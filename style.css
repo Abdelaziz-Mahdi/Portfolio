@@ -495,13 +495,13 @@ textarea {
 
 #btn-container .see-project {
   color: #fff;
-  background-color: #36b37f;
+  background-color: #1A875A;
   cursor: pointer;
   padding: 3% 2%;
 }
 
 #btn-container .see-project:hover {
-  background: #36b37f;
+  background: #1A875A;
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 4px;
 }

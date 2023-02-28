@@ -95,6 +95,10 @@ h1 {
   animation-name: slidesin;
 }
 
+label {
+  display: none;
+}
+
 @keyframes slidesin {
   from {
     margin-right: 100%;

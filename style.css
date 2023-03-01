@@ -511,7 +511,7 @@ textarea {
   border-radius: 4px;
 }
 
-#contact-social {
+.contact-social {
   display: flex;
   justify-content: space-between;
   width: 50%;
@@ -675,7 +675,7 @@ textarea {
     gap: 1%;
   }
 
-  #contact-social {
+  .contact-social {
     display: none;
   }
 
@@ -714,7 +714,7 @@ textarea {
     height: 100%;
   }
 
-  footer #contact-social {
+  footer .contact-social {
     display: inline-flex;
     justify-content: center;
     align-items: baseline;

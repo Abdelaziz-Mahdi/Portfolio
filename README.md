@@ -5,8 +5,8 @@
   <h1><b>Personal-Portfolio</b></h1><div align="left">
    <br/>
    <br/>
-  <img src=".\img\sc-iPSE.png" alt="mobile-screenshot" width="240"  height="auto" />
-  <img src=".\img\t3-Portfolio.jpg" alt="mobile-screenshot" width="760"  height="auto" />
+  <img src=".\img\sc-iPSE.png" alt="mobile-screenshot" width="200"  height="auto" />
+  <img src=".\img\t3-Portfolio.jpg" alt="mobile-screenshot" width="560"  height="auto" />
   <br/>
 </div>
 </div>
@@ -19,7 +19,8 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    - [🚀 Live Demo](#live-demo)
+  - [:movie_camera: Project Presentation](#project-presentation)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
 - [👥 Authors](#authors)
@@ -50,6 +51,16 @@ Major languages -HTML (semantic) -CSS (flexbox)
 - **[Responsive Design]**
 - **[Contact Form]**
 - **[Add validation for the form]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Project Presntation -->
+
+## :movie_camera: Project Presentation <a name="project-presentation"></a>
+
+Walking through portfolio outline.
+
+- [Project Presentation Link] [https://www.loom.com/share/29294104315146c0a4edebe423b7a1e5](https://www.loom.com/share/29294104315146c0a4edebe423b7a1e5)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,8 +112,8 @@ This is an activity called Set up a 'portfolio-website' project to test the foll
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Accessibility]**
 - [ ] **[Mobile Menu]**
+- [ ] **[details popup window]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

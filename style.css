@@ -24,11 +24,11 @@ html {
 }
 
 .green {
-  color: #36b37e;
+  color: #1a875a;
 }
 
 .greenBG {
-  background-color: #36b37e;
+  background-color: #1a875a;
 }
 
 .dgreen {
@@ -93,6 +93,10 @@ h1 {
   line-height: 52px;
   animation-duration: 3s;
   animation-name: slidesin;
+}
+
+label {
+  display: none;
 }
 
 @keyframes slidesin {
@@ -231,7 +235,7 @@ h4 {
   content: "";
   width: 48px;
   height: 4px;
-  background-color: #36b37e;
+  background-color: #1a875a;
   border-radius: 24px;
   position: absolute;
   bottom: -20px;
@@ -398,7 +402,7 @@ h4 {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #36b37e;
+  color: #1a875a;
   border-radius: 10%;
   padding: 4% 3%;
   background-color: white;
@@ -491,7 +495,7 @@ textarea {
 
 #btn-container .see-project {
   color: #fff;
-  background-color: #36b37f;
+  background-color: #1a875a;
   cursor: pointer;
   padding: 3% 2%;
 }
@@ -507,7 +511,7 @@ textarea {
   border-radius: 4px;
 }
 
-#contact-social {
+.contact-social {
   display: flex;
   justify-content: space-between;
   width: 50%;
@@ -671,7 +675,7 @@ textarea {
     gap: 1%;
   }
 
-  #contact-social {
+  .contact-social {
     display: none;
   }
 
@@ -710,7 +714,7 @@ textarea {
     height: 100%;
   }
 
-  footer #contact-social {
+  footer .contact-social {
     display: inline-flex;
     justify-content: center;
     align-items: baseline;

@@ -24,11 +24,11 @@ html {
 }
 
 .green {
-  color: #1A875A;
+  color: #1a875a;
 }
 
 .greenBG {
-  background-color: #1A875A;
+  background-color: #1a875a;
 }
 
 .dgreen {
@@ -235,7 +235,7 @@ h4 {
   content: "";
   width: 48px;
   height: 4px;
-  background-color: #1A875A;
+  background-color: #1a875a;
   border-radius: 24px;
   position: absolute;
   bottom: -20px;
@@ -402,7 +402,7 @@ h4 {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  color: #1A875A;
+  color: #1a875a;
   border-radius: 10%;
   padding: 4% 3%;
   background-color: white;
@@ -495,7 +495,7 @@ textarea {
 
 #btn-container .see-project {
   color: #fff;
-  background-color: #1A875A;
+  background-color: #1a875a;
   cursor: pointer;
   padding: 3% 2%;
 }

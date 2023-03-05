@@ -19,7 +19,8 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    - [🚀 Live Demo](#live-demo)
+  - [:movie_camera: Project Presentation](#project-presentation)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
 - [👥 Authors](#authors)
@@ -50,6 +51,16 @@ Major languages -HTML (semantic) -CSS (flexbox)
 - **[Responsive Design]**
 - **[Contact Form]**
 - **[Add validation for the form]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- Project Presntation -->
+
+## :movie_camera: Project Presentation <a name="project-presentation"></a>
+
+Walking through portfolio outline.
+
+- [Project Presentation Link] [https://www.loom.com/share/29294104315146c0a4edebe423b7a1e5](https://www.loom.com/share/29294104315146c0a4edebe423b7a1e5)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -152,19 +152,28 @@ h4 {
   width: 100%;
   flex-direction: column;
   height: 100vh;
+  border-radius: 0 0 12% 12%;
+  border-bottom: #e5e5e5e5 solid 50px;
+  box-shadow: 0 60px 0 0 #e5e5e5e5;
+}
+
+#menu_list {
+  padding-left: 5%;
 }
 
 #menu_list li {
   margin-bottom: 1em;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 600;
 }
 
 #closebtn {
   align-self: flex-end;
+  margin: 5%;
 }
 
-#nav-id {
-  padding: 1em;
-}
+
 
 #main-section header {
   display: none;

@@ -25,3 +25,4 @@ $RECYCLE.BIN/
 *.lnk
 ###a files and folders that should be ignored by git###
 node_modules
+.vscode

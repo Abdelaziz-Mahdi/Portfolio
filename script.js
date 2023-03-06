@@ -1,12 +1,12 @@
-let hummenu = document.getElementById('menu');
-let logo = document.getElementById('logo');
-let menuCo = document.getElementById('mobilemenu');
-let closeMenu = document.getElementById('closebtn');
-let bodyCo = document.getElementById('bodyCo');
-let porBtn = document.getElementById('porbtn');
-let aboBtn = document.getElementById('abobtn');
-let forBtn = document.getElementById('forbtn');
-let nav = document.getElementById('nav-id');
+const hummenu = document.getElementById('menu');
+const logo = document.getElementById('logo');
+const menuCo = document.getElementById('mobilemenu');
+const closeMenu = document.getElementById('closebtn');
+const bodyCo = document.getElementById('bodyCo');
+const porBtn = document.getElementById('porbtn');
+const aboBtn = document.getElementById('abobtn');
+const forBtn = document.getElementById('forbtn');
+const nav = document.getElementById('nav-id');
 
 hummenu.addEventListener('click', () => {
   menuCo.style.display = 'flex';

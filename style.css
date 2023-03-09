@@ -87,14 +87,6 @@ a:visited {
   cursor: pointer;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  animation-duration: 3s;
-  animation-name: slidesin;
-}
-
 label {
   display: none;
 }
@@ -109,6 +101,14 @@ label {
     margin-left: 0%;
     width: 100%;
   }
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  animation-duration: 3s;
+  animation-name: slidesin;
 }
 
 h2 {
@@ -129,6 +129,21 @@ h4 {
   font-size: 24px;
   line-height: 32px;
   text-align: center;
+}
+
+h5 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: left;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
 }
 
 /* Home Page */
@@ -446,6 +461,75 @@ h4 {
   align-items: center;
 }
 
+/* Dialog Popup */
+
+.dialog-container {
+  background-color: #c1c7d0;
+  background-blend-mode: multiply;
+  width: 100%;
+  justify-content: center;
+  height: auto;
+}
+
+.dialog-card {
+  justify-content: space-evenly;
+  background-color: white;
+  width: 95%;
+  height: 95%;
+  border-radius: 2%;
+  padding: 8% 4% 8% 4%;
+}
+
+.btn-noBg {
+  background-color: unset;
+  border: unset;
+}
+
+.dialog-card-data {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6em;
+}
+
+.dialog-container .language-list {
+  justify-content: flex-start;
+}
+
+.dialog-btn-ctr {
+  width: 100%;
+  height: auto;
+}
+
+.dialog-btn-ctr img {
+  width: 100%;
+  height: auto;
+}
+
+.dialog-btn-ctr button {
+  right: 5%;
+}
+
+.pop-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pop-btn li {
+  width: 48%;
+}
+
+.pop-btn button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+}
+
+.dsp-d {
+  display: none;
+}
+
 /* Form */
 
 .flex-drow {
@@ -629,6 +713,63 @@ textarea {
     gap: 2%;
     justify-content: center;
     margin: 50px 0 0 0;
+  }
+
+  /* Dialog Popup */
+
+  .flex-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .pop-btn {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 30%;
+  }
+
+  .dialog-card-data {
+    justify-content: space-around;
+    gap: 0;
+  }
+
+  .dialog-card-data .language {
+    padding: 1%;
+  }
+
+  .dialog-card-data h5 {
+    flex-basis: 50%;
+  }
+  .dialog-card-data p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #344563;
+  }
+
+  .flex-row ul {
+    height: 70%;
+  }
+
+  .dialog-btn-ctr {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0.5em;
+  }
+
+  .dialog-btn-ctr button {
+    position: relative;
+    align-self: flex-end;
+    right: 0;
+  }
+
+  .btn-noBg svg {
+    border-radius: 15%;
+    background-color: #ebecf0;
+    fill: #67798e;
+    color: #67798e;
+    position: relative;
   }
 
   /* about myself */

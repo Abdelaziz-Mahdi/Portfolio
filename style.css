@@ -469,6 +469,17 @@ h5 {
   width: 100%;
   justify-content: center;
   height: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+#dialog-container {
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .dialog-card {
@@ -709,10 +720,13 @@ textarea {
 
   #cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 2%;
-    justify-content: center;
+    grid-template-columns: 28% 28% 28%;
+    gap: 1.5%;
     margin: 50px 0 0 0;
+  }
+
+  .card-action {
+    width: 50%;
   }
 
   /* Dialog Popup */
@@ -777,6 +791,7 @@ textarea {
   #about-myself {
     background-image: url(./img/frame-des.svg);
     margin-top: 5%;
+    align-items: initial;
   }
 
   .pAbout {
@@ -801,18 +816,47 @@ textarea {
   #about-cards-con {
     padding-top: 2%;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    gap: 2%;
-    width: 80%;
+    gap: 1.5%;
+  }
+
+  .about-card {
+    height: auto;
+    width: 28%;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
 
   .abs {
-    left: 6%;
+    position: absolute;
+    top: 5%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+  }
+
+  .abs svg {
+    width: 100%;
+    height: auto;
+  }
+
+  .cat-item {
+    padding: 2%;
+  }
+
+  .cat-data {
+    width: 100%;
+    height: auto;
   }
 
   .d-desk {
     display: block;
+    width: 100%;
+    height: auto;
   }
 
   .d-mob {

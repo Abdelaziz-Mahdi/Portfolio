@@ -287,13 +287,13 @@ h5 {
 #works-section {
   display: grid;
   grid-column: auto;
-  justify-content: center;
 }
 
 #cards {
   display: grid;
   grid-column: auto;
   justify-content: center;
+  justify-items: stretch;
   margin: 50px 0 0 0;
 }
 
@@ -464,25 +464,18 @@ h5 {
 /* Dialog Popup */
 
 .dialog-container {
-  background-color: #c1c7d0;
-  background-blend-mode: multiply;
-  width: 100%;
-  justify-content: center;
-  height: auto;
-  overflow-y: auto;
-  overflow-x: hidden;
+  position: fixed;
+  border-color: transparent;
+  margin: auto 7% auto 7%;
 }
 
 .no-scroll {
   overflow: hidden;
-}
-
-#dialog-container {
-  overflow-y: auto;
-  overflow-x: hidden;
+  position: sticky;
 }
 
 .dialog-card {
+  display: flex;
   justify-content: space-evenly;
   background-color: white;
   width: 95%;

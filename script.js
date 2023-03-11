@@ -324,3 +324,16 @@ window.onload = () => {
   cardGenrator();
   popGenrato();
 };
+
+/* validate contact form */
+
+const form = document.getElementById('form');
+
+function validateEmail(emailField) {
+  const reg = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
+
+  if (!reg.test(emailField)) {
+    return false;
+  }
+  return true;
+}

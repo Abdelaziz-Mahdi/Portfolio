@@ -55,51 +55,51 @@ forBtn.addEventListener('click', () => {
 
 /* Works Session */
 
-let worksCardArr = [
+const worksCardArr = [
   {
     Id: 1,
-    Svg: `<svg   class='d-mob'   width='342'   height='492'   viewBox='0 0 329 476'   fill='none'   xmlns='http://www.w3.org/2000/svg' >   <rect     x='0.5'     y='0.5'     width='328'     height='475'     rx='8.5'     fill='#EBF0EE'     stroke='#D0D9D4'   /> </svg> <svg   class='d-desk'   width='370'   height='476'   viewBox='0 0 370 476'   fill='none'   xmlns='http://www.w3.org/2000/svg' >   <rect     x='-0.5'     y='0.5'     width='370'     height='475'     rx='8.5'     fill='#EBF0EE'     stroke='#D0D9D4'   /> </svg>`,
-    Img: `<img    class='d-mob'    src='./img/m-Snapshoot-Portfolio.svg'    alt='project picture'  />  <img    class='d-desk'    src='./img/Snapshoot-Portfolio.svg'    alt='project picture'  />`,
+    Svg: ['./img/cardPlaholderM.png', './img/cardPlaholderD.png'],
+    Img: ['./img/m-Snapshoot-Portfolio.svg', './img/Snapshoot-Portfolio.svg'],
     Headding: 'Multi-Post Stories Gain+Glory',
     Languages: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
     Paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   },
   {
     Id: 2,
-    Svg: `<svg   class='d-mob'   width='342'   height='492'   viewBox='0 0 329 476'   fill='none'   xmlns='http://www.w3.org/2000/svg' >   <rect     x='0.5'     y='0.5'     width='328'     height='475'     rx='8.5'     fill='#EBF0EE'     stroke='#D0D9D4'   /> </svg> <svg   class='d-desk'   width='370'   height='476'   viewBox='0 0 370 476'   fill='none'   xmlns='http://www.w3.org/2000/svg' >   <rect     x='-0.5'     y='0.5'     width='370'     height='475'     rx='8.5'     fill='#EBF0EE'     stroke='#D0D9D4'   /> </svg>`,
-    Img: `<img    class='d-mob'    src='./img/m-Snapshoot-Portfolio.svg'    alt='project picture'  />  <img    class='d-desk'    src='./img/Snapshoot-Portfolio.svg'    alt='project picture'  />`,
+    Svg: ['./img/cardPlaholderM.png', './img/cardPlaholderD.png'],
+    Img: ['./img/m-Snapshoot-Portfolio.svg', './img/Snapshoot-Portfolio.svg'],
     Headding: 'Multi-Post Stories Gain+Glory',
     Languages: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
     Paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   },
   {
     Id: 3,
-    Svg: `<svg   class='d-mob'   width='342'   height='492'   viewBox='0 0 329 476'   fill='none'   xmlns='http://www.w3.org/2000/svg' >   <rect     x='0.5'     y='0.5'     width='328'     height='475'     rx='8.5'     fill='#EBF0EE'     stroke='#D0D9D4'   /> </svg> <svg   class='d-desk'   width='370'   height='476'   viewBox='0 0 370 476'   fill='none'   xmlns='http://www.w3.org/2000/svg' >   <rect     x='-0.5'     y='0.5'     width='370'     height='475'     rx='8.5'     fill='#EBF0EE'     stroke='#D0D9D4'   /> </svg>`,
-    Img: `<img    class='d-mob'    src='./img/m-Snapshoot-Portfolio.svg'    alt='project picture'  />  <img    class='d-desk'    src='./img/Snapshoot-Portfolio.svg'    alt='project picture'  />`,
+    Svg: ['./img/cardPlaholderM.png', './img/cardPlaholderD.png'],
+    Img: ['./img/m-Snapshoot-Portfolio.svg', './img/Snapshoot-Portfolio.svg'],
     Headding: 'Multi-Post Stories Gain+Glory',
     Languages: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
     Paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   },
   {
     Id: 4,
-    Svg: `<svg   class='d-mob'   width='342'   height='492'   viewBox='0 0 329 476'   fill='none'   xmlns='http://www.w3.org/2000/svg' >   <rect     x='0.5'     y='0.5'     width='328'     height='475'     rx='8.5'     fill='#EBF0EE'     stroke='#D0D9D4'   /> </svg> <svg   class='d-desk'   width='370'   height='476'   viewBox='0 0 370 476'   fill='none'   xmlns='http://www.w3.org/2000/svg' >   <rect     x='-0.5'     y='0.5'     width='370'     height='475'     rx='8.5'     fill='#EBF0EE'     stroke='#D0D9D4'   /> </svg>`,
-    Img: `<img    class='d-mob'    src='./img/m-Snapshoot-Portfolio.svg'    alt='project picture'  />  <img    class='d-desk'    src='./img/Snapshoot-Portfolio.svg'    alt='project picture'  />`,
+    Svg: ['./img/cardPlaholderM.png', './img/cardPlaholderD.png'],
+    Img: ['./img/m-Snapshoot-Portfolio.svg', './img/Snapshoot-Portfolio.svg'],
     Headding: 'Multi-Post Stories Gain+Glory',
     Languages: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
     Paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   },
   {
     Id: 5,
-    Svg: `<svg   class='d-mob'   width='342'   height='492'   viewBox='0 0 329 476'   fill='none'   xmlns='http://www.w3.org/2000/svg' >   <rect     x='0.5'     y='0.5'     width='328'     height='475'     rx='8.5'     fill='#EBF0EE'     stroke='#D0D9D4'   /> </svg> <svg   class='d-desk'   width='370'   height='476'   viewBox='0 0 370 476'   fill='none'   xmlns='http://www.w3.org/2000/svg' >   <rect     x='-0.5'     y='0.5'     width='370'     height='475'     rx='8.5'     fill='#EBF0EE'     stroke='#D0D9D4'   /> </svg>`,
-    Img: `<img    class='d-mob'    src='./img/m-Snapshoot-Portfolio.svg'    alt='project picture'  />  <img    class='d-desk'    src='./img/Snapshoot-Portfolio.svg'    alt='project picture'  />`,
+    Svg: ['./img/cardPlaholderM.png', './img/cardPlaholderD.png'],
+    Img: ['./img/m-Snapshoot-Portfolio.svg', './img/Snapshoot-Portfolio.svg'],
     Headding: 'Multi-Post Stories Gain+Glory',
     Languages: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
     Paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   },
   {
     Id: 6,
-    Svg: `<svg   class='d-mob'   width='342'   height='492'   viewBox='0 0 329 476'   fill='none'   xmlns='http://www.w3.org/2000/svg' >   <rect     x='0.5'     y='0.5'     width='328'     height='475'     rx='8.5'     fill='#EBF0EE'     stroke='#D0D9D4'   /> </svg> <svg   class='d-desk'   width='370'   height='476'   viewBox='0 0 370 476'   fill='none'   xmlns='http://www.w3.org/2000/svg' >   <rect     x='-0.5'     y='0.5'     width='370'     height='475'     rx='8.5'     fill='#EBF0EE'     stroke='#D0D9D4'   /> </svg>`,
-    Img: `<img    class='d-mob'    src='./img/m-Snapshoot-Portfolio.svg'    alt='project picture'  />  <img    class='d-desk'    src='./img/Snapshoot-Portfolio.svg'    alt='project picture'  />`,
+    Svg: ['./img/cardPlaholderM.png', './img/cardPlaholderD.png'],
+    Img: ['./img/m-Snapshoot-Portfolio.svg', './img/Snapshoot-Portfolio.svg'],
     Headding: 'Multi-Post Stories Gain+Glory',
     Languages: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
     Paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
@@ -118,7 +118,8 @@ const cardGenrator = () => {
     const workCard = document.createElement('li');
     workCard.classList.add('card-con', 'border');
     workCard.innerHTML += `
-    ${card.Svg}
+    <img    class='d-mob'    src=${card.Svg[0]}    alt='project picture'  />  
+    <img    class='d-desk'    src=${card.Svg[1]}    alt='project picture'  />
   <ul class='card-data place-over border'>
     <li>
       <h4 class='dgreenB'>
@@ -148,7 +149,8 @@ const cardGenrator = () => {
   <dialog id='dialog-container' class='dialog-container'>
       <div class='dialog-card flex'>
         <div id='dialog-btn-ctr' class='dialog-btn-ctr relative'>
-        ${card.Img}
+        <img    class='d-mob'    src=${card.Img[0]}    alt='project picture'  />  
+        <img    class='d-desk'    src=${card.Img[1]}    alt='project picture'  />
           <button
             id='closeDialoge'
             class='absolute btn-noBg'
@@ -308,13 +310,13 @@ const popGenrato = () => {
   const closeButton = document.querySelector('#closeDialoge');
   opnPopBtn.forEach((btn) => {
     btn.addEventListener('click', () => {
-          document.body.classList.add('no-scroll');
-          dialogContainer.showModal();
-       });
+      document.body.classList.add('no-scroll');
+      dialogContainer.showModal();
+    });
   });
   closeButton.addEventListener('click', () => {
-      dialogContainer.close();
-      document.body.classList.remove('no-scroll');
+    dialogContainer.close();
+    document.body.classList.remove('no-scroll');
   });
 };
 

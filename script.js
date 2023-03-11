@@ -331,9 +331,19 @@ const form = document.getElementById('form');
 
 function validateEmail(emailField) {
   const reg = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/;
-
   if (!reg.test(emailField)) {
     return false;
   }
   return true;
 }
+
+form.addEventListener('submit', (event) => {
+  const emailVa = document.getElementById('email').value;
+  const showMessage = document.getElementById('showMessage');
+  if (!validateEmail(emailVa)) {
+    event.preventDefault();
+    showMessage.innerHTML = 'Email should be in small letters! ';
+  } else {
+    showMessage.innerHTML = 'Submmeted Succesfully';
+  }
+});

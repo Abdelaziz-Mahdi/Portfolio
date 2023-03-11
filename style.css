@@ -175,6 +175,10 @@ h5 {
   padding-left: 5%;
 }
 
+.pop-btn li {
+  width: 48%;
+}
+
 #menu_list li {
   margin-bottom: 1em;
   font-size: 32px;
@@ -518,10 +522,6 @@ h5 {
   justify-content: space-between;
 }
 
-.pop-btn li {
-  width: 48%;
-}
-
 .pop-btn button {
   display: inline-flex;
   align-items: center;
@@ -672,6 +672,13 @@ textarea {
     display: inline;
   }
 
+  .dialog-card-data p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #344563;
+  }
+
   #main-section p {
     width: 56.5%;
   }
@@ -747,12 +754,6 @@ textarea {
 
   .dialog-card-data h5 {
     flex-basis: 50%;
-  }
-  .dialog-card-data p {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 30px;
-    color: #344563;
   }
 
   .flex-row ul {

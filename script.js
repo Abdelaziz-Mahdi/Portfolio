@@ -58,11 +58,13 @@ forBtn.addEventListener('click', () => {
 const worksCardArr = [
   {
     Id: 1,
-    Svg: ['./img/cardPlaholderM.png', './img/cardPlaholderD.png'],
-    Img: ['./img/m-Snapshoot-Portfolio.svg', './img/Snapshoot-Portfolio.svg'],
-    Headding: 'Multi-Post Stories Gain+Glory',
-    Languages: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
-    Paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Svg: ['./img/To-Do-list_CM.png', './img/To-Do-list_CD.png'],
+    Img: ['./img/To-Do-list_PM.png', './img/To-Do-list_PD.png'],
+    Headding: 'TO_DO List',
+    Live: 'https://abdelaziz-ali.github.io/To-Do-list/dist/',
+    Source: 'https://github.com/Abdelaziz-Ali/To-Do-list',
+    Languages: ['ES6', 'CSS', 'JavaScript', 'html'],
+    Paragraph: '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete, That project is a simple website that allows for doing that, Built using ES6 and Webpack!',
   },
   {
     Id: 2,
@@ -123,16 +125,15 @@ const cardGenrator = () => {
   <ul class='card-data place-over border'>
     <li>
       <h4 class='dgreenB'>
-        Multi-Post Stories <br />
-        Gain+Glory
+      ${card.Headding}
       </h4>
     </li>
     <li>
       <ul class='language-list'>
-        <li class='language grayBG dgreenB'>Ruby on rails</li>
-        <li class='language grayBG dgreenB'>CSS</li>
-        <li class='language grayBG dgreenB'>JavScript</li>
-        <li class='language grayBG dgreenB'>html</li>
+        <li class='language grayBG dgreenB'>${card.Languages[0]}</li>
+        <li class='language grayBG dgreenB'>${card.Languages[1]}</li>
+        <li class='language grayBG dgreenB'>${card.Languages[2]}</li>
+        <li class='language grayBG dgreenB'>${card.Languages[3]}</li>
       </ul>
     </li>
     <li class='card-action'>
@@ -173,13 +174,13 @@ const cardGenrator = () => {
         </div>
         <div class='dialog-card-data'>
           <div class='flex-row'>
-            <h5 class='dgreenB'>Keeping track of hundreds of components</h5>
+            <h5 class='dgreenB'>${card.Headding}</h5>
             <ul class='pop-btn dsp-d'>
               <li>
-                <button
+                <a
                   class='see-project white greenBG'
                   aria-label='action-btn'
-                  type='button'
+                  href='${card.Live}'
                 >
                   <span>See Live</span>
       
@@ -197,13 +198,13 @@ const cardGenrator = () => {
                       fill='white'
                     />
                   </svg>
-                </button>
+                </a>
               </li>
               <li>
-                <button
+                <a
                   class='see-project white greenBG'
                   aria-label='action-btn'
-                  type='button'
+                  href='${card.Source}'
                 >
                   See Source
                   <i
@@ -227,25 +228,25 @@ const cardGenrator = () => {
                       </defs>
                     </svg>
                   </i>
-                </button>
+                </a>
               </li>
             </ul>
           </div>
           <ul class='language-list'>
-            <li class='language grayBG dgreenB'>Ruby on rails</li>
-            <li class='language grayBG dgreenB'>CSS</li>
-            <li class='language grayBG dgreenB'>JavScript</li>
-            <li class='language grayBG dgreenB'>html</li>
+            <li class='language grayBG dgreenB'>${card.Languages[0]}</li>
+            <li class='language grayBG dgreenB'>${card.Languages[1]}</li>
+            <li class='language grayBG dgreenB'>${card.Languages[2]}</li>
+            <li class='language grayBG dgreenB'>${card.Languages[3]}</li>
           </ul>
           <p>
           ${card.Paragraph}
           </p>
           <ul class='pop-btn d-mob'>
             <li>
-              <button
+              <a
                 class='see-project white greenBG'
                 aria-label='action-btn'
-                type='button'
+                href='${card.Live}'
               >
                 <span>See Live</span>
       
@@ -263,13 +264,13 @@ const cardGenrator = () => {
                     fill='white'
                   />
                 </svg>
-              </button>
+              </a>
             </li>
             <li>
-              <button
+              <a
                 class='see-project white greenBG'
                 aria-label='action-btn'
-                type='button'
+                href='${card.Source}'
               >
                 See Source
                 <i
@@ -293,7 +294,7 @@ const cardGenrator = () => {
                     </defs>
                   </svg>
                 </i>
-              </button>
+              </a>
             </li>
           </ul>
         </div>

@@ -120,8 +120,8 @@ const cardGenrator = () => {
     const workCard = document.createElement('li');
     workCard.classList.add('card-con', 'border');
     workCard.innerHTML += `
-    <img    class='d-mob'    src=${card.Svg[0]}    alt='project picture'  />  
-    <img    class='d-desk'    src=${card.Svg[1]}    alt='project picture'  />
+    <img    class='d-mob border'    src=${card.Svg[0]}    alt='project picture'  />  
+    <img    class='d-desk border'    src=${card.Svg[1]}    alt='project picture'  />
   <ul class='card-data place-over border'>
     <li>
       <h4 class='dgreenB'>

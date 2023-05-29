@@ -147,7 +147,7 @@ const cardGenrator = () => {
       </button>
     </li>
   </ul>
-  <dialog id='dialog-container' class='dialog-container'>
+  <dialog id='dialog-container${card.Id}' class='dialog-container'>
       <div class='dialog-card flex'>
         <div id='dialog-btn-ctr' class='dialog-btn-ctr relative'>
         <img    class='d-mob'    src=${card.Img[0]}    alt='project picture'  />  
@@ -306,18 +306,21 @@ const cardGenrator = () => {
 
 /* Detail Popup Window */
 const popGenrato = () => {
-  const opnPopBtn = document.querySelectorAll('.open-pop-btn');
-  const dialogContainer = document.getElementById('dialog-container');
-  const closeButton = document.querySelector('#closeDialoge');
-  opnPopBtn.forEach((btn) => {
+  const opnPopBtn = document.querySelectorAll('.open-pop-btn'); 
+  const closeButton = document.querySelectorAll('#closeDialoge');
+  opnPopBtn.forEach((btn, index) => {
     btn.addEventListener('click', () => {
+      const dialogContainer = document.getElementById(`dialog-container${index+1}`);
       document.body.classList.add('no-scroll');
       dialogContainer.showModal();
     });
   });
-  closeButton.addEventListener('click', () => {
-    dialogContainer.close();
-    document.body.classList.remove('no-scroll');
+  closeButton.forEach((btn, index) => {
+    btn.addEventListener('click', () => {
+      const dialogContainer = document.getElementById(`dialog-container${index+1}`);
+      dialogContainer.close();
+      document.body.classList.remove('no-scroll');
+    });
   });
 };
 

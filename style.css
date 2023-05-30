@@ -739,13 +739,22 @@ textarea {
 
   .pop-btn {
     display: flex;
-    flex-direction: row;
-    flex-basis: 30%;
+    flex-basis: 35%;
+    align-items: center;
+  }
+
+  .dialog-container {
+    border-radius: 2%;
+  }
+
+  .dialog-card {
+    justify-content: initial;
+    gap: 10px;
   }
 
   .dialog-card-data {
     justify-content: space-around;
-    gap: 0;
+    gap: 10px;
   }
 
   .dialog-card-data .language {
@@ -756,14 +765,14 @@ textarea {
     flex-basis: 50%;
   }
 
-  .flex-row ul {
-    height: 70%;
-  }
-
   .dialog-btn-ctr {
     display: flex;
     flex-direction: column-reverse;
     gap: 0.5em;
+  }
+
+  .dialog-btn-ctr img {
+    border-radius: 2%;
   }
 
   .dialog-btn-ctr button {

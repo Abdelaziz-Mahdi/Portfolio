@@ -306,18 +306,18 @@ const cardGenrator = () => {
 
 /* Detail Popup Window */
 const popGenrato = () => {
-  const opnPopBtn = document.querySelectorAll('.open-pop-btn'); 
+  const opnPopBtn = document.querySelectorAll('.open-pop-btn');
   const closeButton = document.querySelectorAll('#closeDialoge');
   opnPopBtn.forEach((btn, index) => {
     btn.addEventListener('click', () => {
-      const dialogContainer = document.getElementById(`dialog-container${index+1}`);
+      const dialogContainer = document.getElementById(`dialog-container${index + 1}`);
       document.body.classList.add('no-scroll');
       dialogContainer.showModal();
     });
   });
   closeButton.forEach((btn, index) => {
     btn.addEventListener('click', () => {
-      const dialogContainer = document.getElementById(`dialog-container${index+1}`);
+      const dialogContainer = document.getElementById(`dialog-container${index + 1}`);
       dialogContainer.close();
       document.body.classList.remove('no-scroll');
     });

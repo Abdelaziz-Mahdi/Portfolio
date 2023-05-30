@@ -739,8 +739,16 @@ textarea {
 
   .pop-btn {
     display: flex;
-    flex-basis: 35%;
+    flex-basis: 30%;
     align-items: center;
+  }
+
+  .pop-btn li {
+    width: 50%;
+}
+
+.pop-btn a:visited {
+    color: #fff;
   }
 
   .dialog-container {

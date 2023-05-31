@@ -746,7 +746,7 @@ textarea {
     width: 50%;
   }
 
-  .pop-btn a:visited {
+  .pop-btn a:visited, .pop-btn a:link {
     color: #fff;
   }
 

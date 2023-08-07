@@ -2,7 +2,7 @@
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <h1><b>Personal-Portfolio</b></h1><div align="left">
+  <h1><b>Portfolio</b></h1><div align="left">
    <br/>
    <br/>
   <img src=".\img\sc-iPSE.png" alt="mobile-screenshot" width="200"  height="auto" />
@@ -33,10 +33,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Personal-Portfolio-T3] <a name="about-project"></a>
+# 📖 Portfolio <a name="about-project"></a>
 
 
-**[Personal-Portfolio-T3]** A portfolio website that runs smoothly on different devices and screen sizes.
+A portfolio website that runs smoothly on different devices and screen sizes.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -48,9 +48,11 @@ Major languages -HTML (semantic) -CSS (flexbox)
 
 ### Key Features <a name="key-features"></a>
 
-- **[Responsive Design]**
-- **[Contact Form]**
-- **[Add validation for the form]**
+[✔️] **Responsive Design**
+
+[✔️] **Contact Form**
+
+[✔️] **Form validation**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,11 +83,10 @@ This is an activity called Set up a 'portfolio-website' project to test the foll
 
 ### Setup
 
-- Open the repository [file](https://github.com/Abdelaziz-Ali/Personal-Portfolio-T3).
 - Click on the "Code" button, above the files list.
 - Select one of the three options to copy the URL: HTTPS, SSH key and GitHub CLI.
 - Open the Terminal in the directory you want to copy the project.
-- Type git clone, pastes the URL you copied, and press enter.
+- Type git clone pastes the [URL](https://github.com/Abdelaziz-Mahdi/Portfolio.git) you copied, and press enter.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,9 +97,9 @@ This is an activity called Set up a 'portfolio-website' project to test the foll
 
 👤 **Abdelaziz Mohamed**
 
-- GitHub: [@Abdelaziz-Ali](https://github.com/Abdelaziz-Ali)
-- Twitter: [@AbdelazizDV](https://twitter.com/AbdelazizDV)
-- LinkedIn: [in/abdelaziz-ali-dev](https://www.linkedin.com/in/abdelaziz-ali-dev)
+- GitHub: [@Abdelaziz-Mahdi](https://github.com/Abdelaziz-Mahdi)
+- Twitter: [@_AbdelazizMahdi](https://twitter.com/_AbdelazizMahdi)
+- LinkedIn: [in/abdelaziz-mahdi](https://www.linkedin.com/in/abdelaziz-mahdi/)
 
 👤 **Agyare Kissi Kenneth**
 
@@ -112,7 +113,7 @@ This is an activity called Set up a 'portfolio-website' project to test the foll
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[details popup window]**
+- [ ] **Add more projects in work section**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

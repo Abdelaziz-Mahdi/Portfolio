@@ -68,11 +68,11 @@ const worksCardArr = [
   },
   {
     Id: 2,
-    Svg: ['./img/cardPlaholderM.png', './img/cardPlaholderD.png'],
-    Img: ['./img/m-Snapshoot-Portfolio.svg', './img/Snapshoot-Portfolio.svg'],
-    Headding: 'Multi-Post Stories Gain+Glory',
-    Languages: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
-    Paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Svg: ['./img/space_CM.png', './img/space_CD.png'],
+    Img: ['./img/space_PM.png', './img/space_PD.png'],
+    Headding: 'Space Travelers Hub',
+    Languages: ['React', 'Redux', 'JavaScript', 'Bootstrap'],
+    Paragraph: 'Our platform enables users to reserve rockets and join missions easily. They can manage reservations and join missions conveniently through their sections, with the flexibility to cancel or leave as needed. A seamless experience for space enthusiasts and explorers.'
   },
   {
     Id: 3,

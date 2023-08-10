@@ -63,7 +63,7 @@ const worksCardArr = [
     Headding: 'TO_DO List',
     Live: 'https://abdelaziz-ali.github.io/To-Do-list/dist/',
     Source: 'https://github.com/Abdelaziz-Ali/To-Do-list',
-    Languages: ['ES6', 'CSS', 'JavaScript', 'html'],
+    Languages: ['ES6', 'CSS', 'JavaScript', 'HTML'],
     Paragraph: '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete, That project is a simple website that allows for doing that, Built using ES6 and Webpack!',
   },
   {
@@ -76,18 +76,18 @@ const worksCardArr = [
   },
   {
     Id: 3,
-    Svg: ['./img/cardPlaholderM.png', './img/cardPlaholderD.png'],
-    Img: ['./img/m-Snapshoot-Portfolio.svg', './img/Snapshoot-Portfolio.svg'],
-    Headding: 'Multi-Post Stories Gain+Glory',
-    Languages: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
-    Paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Svg: ['./img/math_CM.png', './img/math_CD.png'],
+    Img: ['./img/math_PM.png', './img/math_PD.png'],
+    Headding: 'Math Magicians',
+    Languages: ['React', 'JavaScript', 'HTML' , 'CSS'],
+    Paragraph: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that consume quote api and allows users to: Make simple calculations. Read a random math-related quote.'
   },
   {
     Id: 4,
     Svg: ['./img/cardPlaholderM.png', './img/cardPlaholderD.png'],
     Img: ['./img/m-Snapshoot-Portfolio.svg', './img/Snapshoot-Portfolio.svg'],
     Headding: 'Multi-Post Stories Gain+Glory',
-    Languages: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
+    Languages: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
     Paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   },
   {
@@ -95,7 +95,7 @@ const worksCardArr = [
     Svg: ['./img/cardPlaholderM.png', './img/cardPlaholderD.png'],
     Img: ['./img/m-Snapshoot-Portfolio.svg', './img/Snapshoot-Portfolio.svg'],
     Headding: 'Multi-Post Stories Gain+Glory',
-    Languages: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
+    Languages: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
     Paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   },
   {
@@ -103,7 +103,7 @@ const worksCardArr = [
     Svg: ['./img/cardPlaholderM.png', './img/cardPlaholderD.png'],
     Img: ['./img/m-Snapshoot-Portfolio.svg', './img/Snapshoot-Portfolio.svg'],
     Headding: 'Multi-Post Stories Gain+Glory',
-    Languages: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
+    Languages: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
     Paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
   },
 ];

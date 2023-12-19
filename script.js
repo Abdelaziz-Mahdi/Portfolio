@@ -71,6 +71,8 @@ const worksCardArr = [
     Svg: ['./img/space_CM.png', './img/space_CD.png'],
     Img: ['./img/space_PM.png', './img/space_PD.png'],
     Headding: 'Space Travelers Hub',
+    Live: 'https://space-travelers-hub-1nvy.onrender.com/',
+    Source: 'https://github.com/Abdelaziz-Mahdi/Space-Travelers-Hub',
     Languages: ['React', 'Redux', 'JavaScript', 'Bootstrap'],
     Paragraph: 'Our platform enables users to reserve rockets and join missions easily. They can manage reservations and join missions conveniently through their sections, with the flexibility to cancel or leave as needed. A seamless experience for space enthusiasts and explorers.'
   },
@@ -79,6 +81,8 @@ const worksCardArr = [
     Svg: ['./img/math_CM.png', './img/math_CD.png'],
     Img: ['./img/math_PM.png', './img/math_PD.png'],
     Headding: 'Math Magicians',
+    Live: 'https://math-magicians-5wnx.onrender.com/',
+    Source: 'https://github.com/Abdelaziz-Mahdi/Math-Magicians',
     Languages: ['React', 'JavaScript', 'HTML' , 'CSS'],
     Paragraph: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that consume quote api and allows users to: Make simple calculations. Read a random math-related quote.'
   },
@@ -182,6 +186,7 @@ const cardGenrator = () => {
                 <a
                   class='see-project white greenBG'
                   aria-label='action-btn'
+                  target="_blank"
                   href='${card.Live}'
                 >
                   <span>See Live</span>
@@ -206,6 +211,7 @@ const cardGenrator = () => {
                 <a
                   class='see-project white greenBG'
                   aria-label='action-btn'
+                  target="_blank"
                   href='${card.Source}'
                 >
                   See Source
@@ -248,6 +254,7 @@ const cardGenrator = () => {
               <a
                 class='see-project white greenBG'
                 aria-label='action-btn'
+                target="_blank"
                 href='${card.Live}'
               >
                 <span>See Live</span>
@@ -272,6 +279,7 @@ const cardGenrator = () => {
               <a
                 class='see-project white greenBG'
                 aria-label='action-btn'
+                target="_blank"
                 href='${card.Source}'
               >
                 See Source

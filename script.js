@@ -58,13 +58,13 @@ forBtn.addEventListener('click', () => {
 const worksCardArr = [
   {
     Id: 1,
-    Svg: ['./img/To-Do-list_CM.png', './img/To-Do-list_CD.png'],
-    Img: ['./img/To-Do-list_PM.png', './img/To-Do-list_PD.png'],
-    Headding: 'TO_DO List',
-    Live: 'https://tidybudget.onrender.com/',
-    Source: 'https://github.com/Abdelaziz-Mahdi/tidy-budget',
-    Languages: ['ES6', 'CSS', 'JavaScript', 'HTML'],
-    Paragraph: '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete, That project is a simple website that allows for doing that, Built using ES6 and Webpack!',
+    Svg: ['./img/vehicle-reservation-system_CM.png', './img/vehicle-reservation-system_CD.png'],
+    Img: ['./vehicle-reservation-system_PM.png', './img/vehicle-reservation-system_PD.png'],
+    Headding: 'Vehicle Reservation System',
+    Live: 'https://vehicle-reservation-system.netlify.app/',
+    Source: 'https://github.com/Abdelaziz-Mahdi/Full_Stack_Capstone_Front_End',
+    Languages: ['Ruby on rails', 'Tailwind', 'PostgreSQL', 'React'],
+    Paragraph: 'The project is based on an app to book an appointment to try a motorcycle. and follow the given design of the website but with personalized content for making a car reservation app',
   },
   {
     Id: 2,

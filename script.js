@@ -59,7 +59,7 @@ const worksCardArr = [
   {
     Id: 1,
     Svg: ['./img/vehicle-reservation-system_CM.png', './img/vehicle-reservation-system_CD.png'],
-    Img: ['./vehicle-reservation-system_PM.png', './img/vehicle-reservation-system_PD.png'],
+    Img: ['./img/vehicle-reservation-system_PM.png', './img/vehicle-reservation-system_PD.png'],
     Headding: 'Vehicle Reservation System',
     Live: 'https://vehicle-reservation-system.netlify.app/',
     Source: 'https://github.com/Abdelaziz-Mahdi/Full_Stack_Capstone_Front_End',
@@ -98,11 +98,13 @@ const worksCardArr = [
   },
   {
     Id: 5,
-    Svg: ['./img/cardPlaholderM.png', './img/cardPlaholderD.png'],
-    Img: ['./img/m-Snapshoot-Portfolio.svg', './img/Snapshoot-Portfolio.svg'],
-    Headding: 'Multi-Post Stories Gain+Glory',
-    Languages: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
-    Paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Svg: ['./img/GS_CM.png', './img/GS_CD.png'],
+    Img: ['./img/GS_PM.png', './img/GS_PD.png'],
+    Headding: 'Global Summit',
+    Live: 'https://abdelaziz-mahdi.github.io/GS-Bootstrap/',
+    Source: 'https://github.com/Abdelaziz-Mahdi/GS-Bootstrap',
+    Languages: ['JavaScript', 'CSS', 'JavaScript', 'Bootstrap'],
+    Paragraph: 'Global Summit is a website displays information about a global conference, developed using JS & Bootstrap.',
   },
   {
     Id: 6,

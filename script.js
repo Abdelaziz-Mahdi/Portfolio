@@ -74,7 +74,7 @@ const worksCardArr = [
     Live: 'https://space-travelers-hub-1nvy.onrender.com/',
     Source: 'https://github.com/Abdelaziz-Mahdi/Space-Travelers-Hub',
     Languages: ['React', 'Redux', 'JavaScript', 'Bootstrap'],
-    Paragraph: 'Our platform enables users to reserve rockets and join missions easily. They can manage reservations and join missions conveniently through their sections, with the flexibility to cancel or leave as needed. A seamless experience for space enthusiasts and explorers.'
+    Paragraph: 'Our platform enables users to reserve rockets and join missions easily. They can manage reservations and join missions conveniently through their sections, with the flexibility to cancel or leave as needed. A seamless experience for space enthusiasts and explorers.',
   },
   {
     Id: 3,
@@ -83,8 +83,8 @@ const worksCardArr = [
     Headding: 'Math Magicians',
     Live: 'https://math-magicians-5wnx.onrender.com/',
     Source: 'https://github.com/Abdelaziz-Mahdi/Math-Magicians',
-    Languages: ['React', 'JavaScript', 'HTML' , 'CSS'],
-    Paragraph: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that consume quote api and allows users to: Make simple calculations. Read a random math-related quote.'
+    Languages: ['React', 'JavaScript', 'HTML', 'CSS'],
+    Paragraph: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that consume quote api and allows users to: Make simple calculations. Read a random math-related quote.',
   },
   {
     Id: 4,
@@ -103,7 +103,7 @@ const worksCardArr = [
     Headding: 'Global Summit',
     Live: 'https://abdelaziz-mahdi.github.io/GS-Bootstrap/',
     Source: 'https://github.com/Abdelaziz-Mahdi/GS-Bootstrap',
-    Languages: ['HTML', 'JavaScript', 'CSS',  'Bootstrap'],
+    Languages: ['HTML', 'JavaScript', 'CSS', 'Bootstrap'],
     Paragraph: 'Global Summit is a website displays information about a global conference, It follow rsponsive design, and the section "Featured speakers" created dynamically in JavaScript, developed using JS & Bootstrap.',
   },
   {

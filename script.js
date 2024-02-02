@@ -58,53 +58,63 @@ forBtn.addEventListener('click', () => {
 const worksCardArr = [
   {
     Id: 1,
-    Svg: ['./img/To-Do-list_CM.png', './img/To-Do-list_CD.png'],
-    Img: ['./img/To-Do-list_PM.png', './img/To-Do-list_PD.png'],
-    Headding: 'TO_DO List',
-    Live: 'https://abdelaziz-ali.github.io/To-Do-list/dist/',
-    Source: 'https://github.com/Abdelaziz-Ali/To-Do-list',
-    Languages: ['ES6', 'CSS', 'JavaScript', 'html'],
-    Paragraph: '"To-do list" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete, That project is a simple website that allows for doing that, Built using ES6 and Webpack!',
+    Svg: ['./img/vehicle-reservation-system_CM.png', './img/vehicle-reservation-system_CD.png'],
+    Img: ['./img/vehicle-reservation-system_PM.png', './img/vehicle-reservation-system_PD.png'],
+    Headding: 'Vehicle Reservation System',
+    Live: 'https://vehicle-reservation-system.netlify.app/',
+    Source: 'https://github.com/Abdelaziz-Mahdi/Full_Stack_Capstone_Front_End',
+    Languages: ['Ruby on rails', 'Tailwind', 'PostgreSQL', 'React'],
+    Paragraph: 'The project is based on an app to book an appointment to try a motorcycle. and follow the given design of the website but with personalized content for making a car reservation app',
   },
   {
     Id: 2,
-    Svg: ['./img/cardPlaholderM.png', './img/cardPlaholderD.png'],
-    Img: ['./img/m-Snapshoot-Portfolio.svg', './img/Snapshoot-Portfolio.svg'],
-    Headding: 'Multi-Post Stories Gain+Glory',
-    Languages: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
-    Paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Svg: ['./img/space_CM.png', './img/space_CD.png'],
+    Img: ['./img/space_PM.png', './img/space_PD.png'],
+    Headding: 'Space Travelers Hub',
+    Live: 'https://space-travelers-hub-1nvy.onrender.com/',
+    Source: 'https://github.com/Abdelaziz-Mahdi/Space-Travelers-Hub',
+    Languages: ['React', 'Redux', 'JavaScript', 'Bootstrap'],
+    Paragraph: 'Our platform enables users to reserve rockets and join missions easily. They can manage reservations and join missions conveniently through their sections, with the flexibility to cancel or leave as needed. A seamless experience for space enthusiasts and explorers.',
   },
   {
     Id: 3,
-    Svg: ['./img/cardPlaholderM.png', './img/cardPlaholderD.png'],
-    Img: ['./img/m-Snapshoot-Portfolio.svg', './img/Snapshoot-Portfolio.svg'],
-    Headding: 'Multi-Post Stories Gain+Glory',
-    Languages: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
-    Paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Svg: ['./img/math_CM.png', './img/math_CD.png'],
+    Img: ['./img/math_PM.png', './img/math_PD.png'],
+    Headding: 'Math Magicians',
+    Live: 'https://math-magicians-5wnx.onrender.com/',
+    Source: 'https://github.com/Abdelaziz-Mahdi/Math-Magicians',
+    Languages: ['React', 'JavaScript', 'HTML', 'CSS'],
+    Paragraph: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that consume quote api and allows users to: Make simple calculations. Read a random math-related quote.',
   },
   {
     Id: 4,
-    Svg: ['./img/cardPlaholderM.png', './img/cardPlaholderD.png'],
-    Img: ['./img/m-Snapshoot-Portfolio.svg', './img/Snapshoot-Portfolio.svg'],
-    Headding: 'Multi-Post Stories Gain+Glory',
-    Languages: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
-    Paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Svg: ['./img/Tidy_CM.png', './img/Tidy_CD.png'],
+    Img: ['./img/Tidy_PM.png', './img/Tidy_PD.png'],
+    Headding: 'Tidy Budget App',
+    Live: 'https://tidybudget.onrender.com/',
+    Source: 'https://github.com/Abdelaziz-Mahdi/tidy-budget',
+    Languages: ['Ruby on rails', 'Bootstrap', 'PostgreSQL', 'RSpec'],
+    Paragraph: 'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
   },
   {
     Id: 5,
-    Svg: ['./img/cardPlaholderM.png', './img/cardPlaholderD.png'],
-    Img: ['./img/m-Snapshoot-Portfolio.svg', './img/Snapshoot-Portfolio.svg'],
-    Headding: 'Multi-Post Stories Gain+Glory',
-    Languages: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
-    Paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Svg: ['./img/GS_CM.png', './img/GS_CD.png'],
+    Img: ['./img/GS_PM.png', './img/GS_PD.png'],
+    Headding: 'Global Summit',
+    Live: 'https://abdelaziz-mahdi.github.io/GS-Bootstrap/',
+    Source: 'https://github.com/Abdelaziz-Mahdi/GS-Bootstrap',
+    Languages: ['HTML', 'JavaScript', 'CSS', 'Bootstrap'],
+    Paragraph: 'Global Summit is a website displays information about a global conference, It follow rsponsive design, and the section "Featured speakers" created dynamically in JavaScript, developed using JS & Bootstrap.',
   },
   {
     Id: 6,
-    Svg: ['./img/cardPlaholderM.png', './img/cardPlaholderD.png'],
-    Img: ['./img/m-Snapshoot-Portfolio.svg', './img/Snapshoot-Portfolio.svg'],
-    Headding: 'Multi-Post Stories Gain+Glory',
-    Languages: ['Ruby on rails', 'CSS', 'JavaScript', 'html'],
-    Paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Svg: ['./img/pokedex_CM.png', './img/pokedex_CD.png'],
+    Img: ['./img/pokedex_PM.png', './img/pokedex_PD.png'],
+    Headding: 'Pokedex',
+    Live: 'https://abdelaziz-mahdi.github.io/Pokemon-Capstone/dist/',
+    Source: 'https://github.com/Abdelaziz-Mahdi/Pokemon-Capstone',
+    Languages: ['JS6', 'API', 'Jest', 'Webpack'],
+    Paragraph: 'Pokedex is a JavaScript single-page Application, Built using ES6 features and Webpack bundler, notably modules, and consumes the PokeAPI using JavaScript async/await.',
   },
 ];
 
@@ -180,9 +190,10 @@ const cardGenrator = () => {
                 <a
                   class='see-project white greenBG'
                   aria-label='action-btn'
+                  target="_blank"
                   href='${card.Live}'
                 >
-                  <span>See Live</span>
+                  <span>Live</span>
       
                   <svg
                     width='24'
@@ -204,9 +215,10 @@ const cardGenrator = () => {
                 <a
                   class='see-project white greenBG'
                   aria-label='action-btn'
+                  target="_blank"
                   href='${card.Source}'
                 >
-                  See Source
+                  Source
                   <i
                     ><svg
                       width='18'
@@ -246,6 +258,7 @@ const cardGenrator = () => {
               <a
                 class='see-project white greenBG'
                 aria-label='action-btn'
+                target="_blank"
                 href='${card.Live}'
               >
                 <span>See Live</span>
@@ -270,6 +283,7 @@ const cardGenrator = () => {
               <a
                 class='see-project white greenBG'
                 aria-label='action-btn'
+                target="_blank"
                 href='${card.Source}'
               >
                 See Source

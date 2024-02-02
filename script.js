@@ -103,16 +103,18 @@ const worksCardArr = [
     Headding: 'Global Summit',
     Live: 'https://abdelaziz-mahdi.github.io/GS-Bootstrap/',
     Source: 'https://github.com/Abdelaziz-Mahdi/GS-Bootstrap',
-    Languages: ['JavaScript', 'CSS', 'JavaScript', 'Bootstrap'],
-    Paragraph: 'Global Summit is a website displays information about a global conference, developed using JS & Bootstrap.',
+    Languages: ['HTML', 'JavaScript', 'CSS',  'Bootstrap'],
+    Paragraph: 'Global Summit is a website displays information about a global conference, It follow rsponsive design, and the section "Featured speakers" created dynamically in JavaScript, developed using JS & Bootstrap.',
   },
   {
     Id: 6,
-    Svg: ['./img/cardPlaholderM.png', './img/cardPlaholderD.png'],
-    Img: ['./img/m-Snapshoot-Portfolio.svg', './img/Snapshoot-Portfolio.svg'],
-    Headding: 'Multi-Post Stories Gain+Glory',
-    Languages: ['Ruby on rails', 'CSS', 'JavaScript', 'HTML'],
-    Paragraph: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    Svg: ['./img/pokedex_CM.png', './img/pokedex_CD.png'],
+    Img: ['./img/pokedex_PM.png', './img/pokedex_PD.png'],
+    Headding: 'Pokedex',
+    Live: 'https://abdelaziz-mahdi.github.io/Pokemon-Capstone/dist/',
+    Source: 'https://github.com/Abdelaziz-Mahdi/Pokemon-Capstone',
+    Languages: ['JS6', 'API', 'Jest', 'Webpack'],
+    Paragraph: 'Pokedex is a JavaScript single-page Application, Built using ES6 features and Webpack bundler, notably modules, and consumes the PokeAPI using JavaScript async/await.',
   },
 ];
 
@@ -191,7 +193,7 @@ const cardGenrator = () => {
                   target="_blank"
                   href='${card.Live}'
                 >
-                  <span>See Live</span>
+                  <span>Live</span>
       
                   <svg
                     width='24'
@@ -216,7 +218,7 @@ const cardGenrator = () => {
                   target="_blank"
                   href='${card.Source}'
                 >
-                  See Source
+                  Source
                   <i
                     ><svg
                       width='18'

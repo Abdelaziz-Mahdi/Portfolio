@@ -132,7 +132,7 @@ h4 {
 
 h5 {
   font-weight: 600;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 44px;
   text-align: left;
 }
@@ -175,7 +175,7 @@ h5 {
 }
 
 .pop-btn li {
-  width: 48%;
+  width: 49%;
 }
 
 #menu_list li {
@@ -330,7 +330,7 @@ h5 {
 .language-list {
   display: flex;
   justify-content: center;
-  gap: 5%;
+  gap: 1%;
 }
 
 .language {
@@ -467,6 +467,7 @@ h5 {
 /* Dialog Popup */
 
 .dialog-container {
+  border-radius: 2%;
   position: fixed;
   border-color: transparent;
   margin: auto 7% auto 7%;
@@ -488,7 +489,10 @@ h5 {
 }
 
 .btn-noBg {
-  background-color: unset;
+  border-radius: 15%;
+  background-color: #ebecf0;
+  fill: #67798e;
+  color: #67798e;
   border: unset;
 }
 
@@ -513,12 +517,13 @@ h5 {
 }
 
 .dialog-btn-ctr button {
-  right: 5%;
+  right: -5%;
 }
 
 .pop-btn {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .pop-btn button {
@@ -531,6 +536,11 @@ h5 {
 
 .dsp-d {
   display: none;
+}
+
+.dialog-flex {
+  display: flex;
+  justify-content: space-around;
 }
 
 /* Form */
@@ -648,6 +658,10 @@ textarea {
 /* Desktop Version */
 
 @media screen and (min-width: 768px) {
+  h5 {
+    font-size: 32px;
+  }
+
   #main-header {
     display: none;
   }
@@ -743,7 +757,7 @@ textarea {
   }
 
   .pop-btn li {
-    width: 50%;
+    width: 47%;
   }
 
   .pop-btn a:visited {

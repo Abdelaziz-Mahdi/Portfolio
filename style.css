@@ -132,7 +132,7 @@ h4 {
 
 h5 {
   font-weight: 600;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 44px;
   text-align: left;
 }
@@ -658,6 +658,11 @@ textarea {
 /* Desktop Version */
 
 @media screen and (min-width: 768px) {
+
+  h5 {
+    font-size: 32px;
+  }
+
   #main-header {
     display: none;
   }

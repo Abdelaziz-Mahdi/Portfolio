@@ -188,12 +188,12 @@ const cardGenrator = () => {
             <ul class='pop-btn dsp-d'>
               <li>
                 <a
-                  class='see-project white greenBG'
+                  class='see-project white greenBG dialog-flex'
                   aria-label='action-btn'
                   target="_blank"
                   href='${card.Live}'
                 >
-                  <span>Live</span>
+                  <span>See Live</span>
       
                   <svg
                     width='24'
@@ -213,12 +213,12 @@ const cardGenrator = () => {
               </li>
               <li>
                 <a
-                  class='see-project white greenBG'
+                  class='see-project white greenBG dialog-flex'
                   aria-label='action-btn'
                   target="_blank"
                   href='${card.Source}'
                 >
-                  Source
+                  See Source
                   <i
                     ><svg
                       width='18'
@@ -256,7 +256,7 @@ const cardGenrator = () => {
           <ul class='pop-btn d-mob'>
             <li>
               <a
-                class='see-project white greenBG'
+                class='see-project white greenBG dialog-flex'
                 aria-label='action-btn'
                 target="_blank"
                 href='${card.Live}'
@@ -281,7 +281,7 @@ const cardGenrator = () => {
             </li>
             <li>
               <a
-                class='see-project white greenBG'
+                class='see-project white greenBG dialog-flex'
                 aria-label='action-btn'
                 target="_blank"
                 href='${card.Source}'

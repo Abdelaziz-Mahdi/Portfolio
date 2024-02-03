@@ -173,7 +173,7 @@ const cardGenrator = () => {
               width='36'
               height='36'
               fill='white'
-              class='bi bi-x'
+              class='bi bi-x dialog-flex'
               viewBox='0 0 16 16'
             >
               <path

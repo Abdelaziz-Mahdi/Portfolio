@@ -77,7 +77,6 @@ body {
 
 a:link {
   text-decoration: inherit;
-  color: inherit;
   cursor: pointer;
 }
 
@@ -711,6 +710,20 @@ textarea {
     line-height: 110%;
     text-align: center;
     color: #344563;
+  }
+
+  .f-nav:hover {
+    font-weight: 550;
+    font-size: 15px;
+    line-height: 110%;
+    text-align: center;
+    color: #36b37f;
+  }
+
+  .nav-h:hover {
+    text-shadow: 0 0 15px #36b37f;
+    transform: scale(1.5);
+    transition: 0.5s;
   }
 
   .inline-flex {

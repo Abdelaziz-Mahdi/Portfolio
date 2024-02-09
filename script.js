@@ -58,13 +58,20 @@ forBtn.addEventListener('click', () => {
 const worksCardArr = [
   {
     Id: 1,
-    Svg: ['./img/vehicle-reservation-system_CM.png', './img/vehicle-reservation-system_CD.png'],
-    Img: ['./img/vehicle-reservation-system_PM.png', './img/vehicle-reservation-system_PD.png'],
+    Svg: [
+      './img/vehicle-reservation-system_CM.png',
+      './img/vehicle-reservation-system_CD.png',
+    ],
+    Img: [
+      './img/vehicle-reservation-system_PM.png',
+      './img/vehicle-reservation-system_PD.png',
+    ],
     Headding: 'Vehicle Reservation System',
     Live: 'https://vehicle-reservation-system.netlify.app/',
     Source: 'https://github.com/Abdelaziz-Mahdi/Full_Stack_Capstone_Front_End',
     Languages: ['Ruby on rails', 'Tailwind', 'PostgreSQL', 'React'],
-    Paragraph: 'The project is based on an app to book an appointment to try a motorcycle. and follow the given design of the website but with personalized content for making a car reservation app',
+    Paragraph:
+      'The project is based on an app to book an appointment to try a motorcycle. and follow the given design of the website but with personalized content for making a car reservation app',
   },
   {
     Id: 2,
@@ -74,7 +81,8 @@ const worksCardArr = [
     Live: 'https://space-travelers-hub-1nvy.onrender.com/',
     Source: 'https://github.com/Abdelaziz-Mahdi/Space-Travelers-Hub',
     Languages: ['React', 'Redux', 'JavaScript', 'Bootstrap'],
-    Paragraph: 'Our platform enables users to reserve rockets and join missions easily. They can manage reservations and join missions conveniently through their sections, with the flexibility to cancel or leave as needed. A seamless experience for space enthusiasts and explorers.',
+    Paragraph:
+      'Our platform enables users to reserve rockets and join missions easily. They can manage reservations and join missions conveniently through their sections, with the flexibility to cancel or leave as needed. A seamless experience for space enthusiasts and explorers.',
   },
   {
     Id: 3,
@@ -84,7 +92,8 @@ const worksCardArr = [
     Live: 'https://math-magicians-5wnx.onrender.com/',
     Source: 'https://github.com/Abdelaziz-Mahdi/Math-Magicians',
     Languages: ['React', 'JavaScript', 'HTML', 'CSS'],
-    Paragraph: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that consume quote api and allows users to: Make simple calculations. Read a random math-related quote.',
+    Paragraph:
+      'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that consume quote api and allows users to: Make simple calculations. Read a random math-related quote.',
   },
   {
     Id: 4,
@@ -94,7 +103,8 @@ const worksCardArr = [
     Live: 'https://tidybudget.onrender.com/',
     Source: 'https://github.com/Abdelaziz-Mahdi/tidy-budget',
     Languages: ['Ruby on rails', 'Bootstrap', 'PostgreSQL', 'RSpec'],
-    Paragraph: 'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+    Paragraph:
+      'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
   },
   {
     Id: 5,
@@ -104,7 +114,8 @@ const worksCardArr = [
     Live: 'https://abdelaziz-mahdi.github.io/GS-Bootstrap/',
     Source: 'https://github.com/Abdelaziz-Mahdi/GS-Bootstrap',
     Languages: ['HTML', 'JavaScript', 'CSS', 'Bootstrap'],
-    Paragraph: 'Global Summit is a website displays information about a global conference, It follow rsponsive design, and the section "Featured speakers" created dynamically in JavaScript, developed using JS & Bootstrap.',
+    Paragraph:
+      'Global Summit is a website displays information about a global conference, It follow rsponsive design, and the section "Featured speakers" created dynamically in JavaScript, developed using JS & Bootstrap.',
   },
   {
     Id: 6,
@@ -114,7 +125,8 @@ const worksCardArr = [
     Live: 'https://abdelaziz-mahdi.github.io/Pokemon-Capstone/dist/',
     Source: 'https://github.com/Abdelaziz-Mahdi/Pokemon-Capstone',
     Languages: ['JS6', 'API', 'Jest', 'Webpack'],
-    Paragraph: 'Pokedex is a JavaScript single-page Application, Built using ES6 features and Webpack bundler, notably modules, and consumes the PokeAPI using JavaScript async/await.',
+    Paragraph:
+      'Pokedex is a JavaScript single-page Application, Built using ES6 features and Webpack bundler, notably modules, and consumes the PokeAPI using JavaScript async/await.',
   },
 ];
 
@@ -157,7 +169,7 @@ const cardGenrator = () => {
       </button>
     </li>
   </ul>
-  <dialog id='dialog-container${card.Id}' class='dialog-container'>
+  <dialog id='dialog-container${card.Id}' class='dialog-container animate__zoomIn animate__animated'>
       <div class='dialog-card flex'>
         <div id='dialog-btn-ctr' class='dialog-btn-ctr relative'>
         <img    class='d-mob'    src=${card.Img[0]}    alt='project picture'  />  
@@ -324,14 +336,18 @@ const popGenrato = () => {
   const closeButton = document.querySelectorAll('#closeDialoge');
   opnPopBtn.forEach((btn, index) => {
     btn.addEventListener('click', () => {
-      const dialogContainer = document.getElementById(`dialog-container${index + 1}`);
+      const dialogContainer = document.getElementById(
+        `dialog-container${index + 1}`,
+      );
       document.body.classList.add('no-scroll');
       dialogContainer.showModal();
     });
   });
   closeButton.forEach((btn, index) => {
     btn.addEventListener('click', () => {
-      const dialogContainer = document.getElementById(`dialog-container${index + 1}`);
+      const dialogContainer = document.getElementById(
+        `dialog-container${index + 1}`,
+      );
       dialogContainer.close();
       document.body.classList.remove('no-scroll');
     });

@@ -67,17 +67,16 @@ html {
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
 }
 
 .poppins {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 a:link {
   text-decoration: inherit;
-  color: inherit;
   cursor: pointer;
 }
 
@@ -106,8 +105,6 @@ h1 {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  animation-duration: 3s;
-  animation-name: slidesin;
 }
 
 h2 {
@@ -199,8 +196,6 @@ h5 {
   font-size: 20px;
   line-height: 28px;
   width: 87%;
-  animation-duration: 3s;
-  animation-name: slidein;
 }
 
 .inline-flex {
@@ -276,7 +271,7 @@ h5 {
 }
 
 .title::after {
-  content: "";
+  content: '';
   width: 48px;
   height: 4px;
   background-color: #1a875a;
@@ -353,7 +348,7 @@ h5 {
   padding: 7% 5%;
   border-radius: 4px;
   border: none;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -543,6 +538,20 @@ h5 {
   justify-content: space-around;
 }
 
+dialog[close] {
+  animation: myFadeIn 5s ease normal;
+}
+
+@keyframes myFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
 /* Form */
 
 .flex-drow {
@@ -704,6 +713,20 @@ textarea {
     color: #344563;
   }
 
+  .f-nav:hover {
+    font-weight: 550;
+    font-size: 15px;
+    line-height: 110%;
+    text-align: center;
+    color: #36b37f;
+  }
+
+  .nav-h:hover {
+    text-shadow: 0 0 15px #36b37f;
+    transform: scale(1.5);
+    transition: 0.5s;
+  }
+
   .inline-flex {
     justify-content: space-between;
     width: 18%;
@@ -760,7 +783,8 @@ textarea {
     width: 47%;
   }
 
-  .pop-btn a:visited {
+  .pop-btn a:visited,
+  .pop-btn a:link {
     color: #fff;
   }
 

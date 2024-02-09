@@ -157,6 +157,17 @@ h5 {
   padding-top: 17%;
 }
 
+#main-section nav {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
 #mobilemenu {
   display: none;
   width: 100%;
@@ -191,11 +202,20 @@ h5 {
   display: none;
 }
 
-#main-section p {
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+main p {
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   width: 87%;
+  margin-bottom: 60px;
 }
 
 .inline-flex {
@@ -705,12 +725,70 @@ textarea {
     width: 56.5%;
   }
 
+  #desktop-menu-ul {
+    gap: 10%;
+    width: 30%;
+    border: #008552 solid 1px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 1%;
+  }
+
   .f-nav {
+    cursor: pointer;
+    position: relative;
+    padding: 5px 10px;
+    background: white;
+    color: #344563;
+    font-weight: 550;
+    font-size: 15px;
+    line-height: 110%;
+    text-shadow: 0 0 15px #36b37f;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: all 1s;
+    &:after,
+    &:before {
+      content: ' ';
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      border: 0px solid #fff;
+      transition: all 1s;
+    }
+    &:after {
+      top: -1px;
+      left: -1px;
+      border-top: 5px solid #36b37f;
+      border-left: 5px solid #36b37f;
+    }
+    &:before {
+      bottom: -1px;
+      right: -1px;
+      border-bottom: 5px solid #36b37f;
+      border-right: 5px solid #36b37f;
+    }
+    &:hover {
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      background: white;
+      color: #36b37f;
+      &:before,
+      &:after {
+        width: 100%;
+        height: 100%;
+        border-color: black;
+      }
+    }
+  }
+
+  /* .f-nav {
     font-weight: 550;
     font-size: 15px;
     line-height: 110%;
     text-align: center;
     color: #344563;
+    background-color: #36b37f;
   }
 
   .f-nav:hover {
@@ -725,7 +803,7 @@ textarea {
     text-shadow: 0 0 15px #36b37f;
     transform: scale(1.5);
     transition: 0.5s;
-  }
+  } */
 
   .inline-flex {
     justify-content: space-between;

@@ -280,6 +280,10 @@ main p {
   border: none;
 }
 
+.srlbtn {
+  margin-top: 5%;
+}
+
 .srlbtn:hover {
   transform: scale(1.5);
   transition: 1s;
@@ -609,11 +613,12 @@ textarea {
 
 #form,
 #form-text {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 #form {
   width: 90%;
+  margin-bottom: 3%;
 }
 
 #form > ul {
@@ -696,6 +701,7 @@ textarea {
   }
 
   #main-section {
+    height: 100vh;
     max-height: 120vh;
     background-image: url(./img/Header-llustration-desktop.svg);
     background-position: top;
@@ -726,8 +732,7 @@ textarea {
   }
 
   #desktop-menu-ul {
-    gap: 10%;
-    width: 30%;
+    width: 37%;
     border: #008552 solid 1px;
     border-radius: 10px;
     background-color: white;
@@ -817,7 +822,7 @@ textarea {
   /* Works Section */
 
   #works-section {
-    margin-top: 8%;
+    padding-top: 8%;
   }
 
   .title::after {
@@ -916,14 +921,15 @@ textarea {
 
   #about-myself {
     background-image: url(./img/frame-des.svg);
-    margin-top: 5%;
+    margin-top: 0%;
+    margin-bottom: 8%;
     align-items: initial;
   }
 
   .pAbout {
     align-self: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     width: 56.5%;
   }
 
@@ -992,7 +998,7 @@ textarea {
   /* Contact me section */
 
   #form-section {
-    height: 78vh;
+    height: 100vh;
   }
 
   #form-text {
@@ -1002,7 +1008,7 @@ textarea {
     line-height: 143%;
     text-align: left;
     width: 33%;
-    margin-top: 14%;
+    margin-top: 11%;
   }
 
   .flex-drow {

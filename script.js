@@ -100,7 +100,7 @@ const worksCardArr = [
     Svg: ['./img/Tidy_CM.png', './img/Tidy_CD.png'],
     Img: ['./img/Tidy_PM.png', './img/Tidy_PD.png'],
     Headding: 'Tidy Budget App',
-    Live: 'https://tidybudget.onrender.com/',
+    Live: 'https://tidybudget-zfwz.onrender.com/',
     Source: 'https://github.com/Abdelaziz-Mahdi/tidy-budget',
     Languages: ['Ruby on rails', 'Bootstrap', 'PostgreSQL', 'RSpec'],
     Paragraph:
